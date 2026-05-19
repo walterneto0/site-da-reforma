@@ -2,7 +2,7 @@ const salmos = [
     {
     numero: 1,
 
-    titulo: "Samlmo 1",
+    titulo: "Salmo 1",
 
     texto: `Quão bem aventurado é
 O homem que não anda
@@ -1836,7 +1836,7 @@ if (psalmList) {
 
         item.innerHTML = `
             <a href="pages/salmo.html?id=${salmo.numero}" class="psalms-links">
-                <span>${salmo.titulo}</span>
+                <span>${salmo.numero}</span>
             </a>
         `
 

@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+html,
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
 /* BODY */
 
 body{
@@ -20,8 +26,6 @@ body{
 
     padding: 40px 20px;
 
-    body{
-
     min-height: 100vh;
 
     background:
@@ -32,16 +36,15 @@ body{
         #dceeff 100%
     );
 }
-}
 
 .background1 {
-     background-image: url("./Mask-group.svg");
+    background-image: url("./Mask-group.svg");
     background-repeat: no-repeat;
     position: fixed;
     background-size: cover;
     width: 28vw;
     height: 85vh;
-    left: 86vw;
+    right: -14vw;
     top: 7vh;
     
 }
@@ -49,6 +52,7 @@ body{
 
 .container{
     max-width: 1400px;
+    width: 100%;
     margin: auto;
 }
 
@@ -77,23 +81,36 @@ body{
     font-size: 1.05rem;
 }
 
-/* GRID DOS SALMOS */
+/* LISTA DOS SALMOS */
 
 .psalms-list{
 
     list-style: none;
 
-    display: grid;
+    display: flex;
 
-    grid-template-columns:
-    repeat(3, 1fr);
+    flex-wrap: wrap;
+
+    justify-content: center;
 
     gap: 18px;
+
+    max-width: 822px;
+
+    margin: 0 auto;
+
+}
+
+.psalms-list li{
+    flex: 0 0 150px;
 }
 
 /* LINKS */
 
 .psalms-links{
+
+    height: 90px;
+    width: 100%;
 
     display: flex;
 
@@ -188,32 +205,45 @@ body{
 
     .psalms-list{
 
-        grid-template-columns:
-        repeat(2, 1fr);
+        max-width: 422px;
+    }
+
+    .psalms-list li{
+        flex-basis: 70px;
+    }
+    
+    .psalms-links {
+        height: 70px;
+        padding: 10px;
     }
 
     .background1 {
-     background-image: url("./Mask-group.svg");
-    background-repeat: no-repeat;
-    position: fixed;
-    background-size: cover;
-    width: 36vw;
-    height: 81vh;
-    left: 82vw;
-    top: 7vh;
+        width: 36vw;
+        height: 81vh;
+        right: -18vw;
+        top: 7vh;
     }
 
 }
 
 @media (max-width: 1000px) {
-     .background1 {
-     background-image: url("./Mask-group.svg");
-    background-repeat: no-repeat;
-    position: fixed;
-    background-size: cover;
-    width: 50vw;
+    .psalms-list{
+        max-width: 522px;
+    }
+
+    .psalms-list li{
+        flex-basis: 70px;
+    }
+
+    .psalms-links {
+        height: 70px;
+        padding: 10px;
+    }
+
+    .background1 {
+        width: 50vw;
     height: 91vh;
-    left: 72vw;
+    right: -28vw;
     top: 7vh;
     }
     
@@ -230,23 +260,77 @@ body{
     }
 
     .psalms-list{
-        grid-template-columns: 1fr;
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+        gap: 10px;
     }
 
-   
+    .psalms-list li {
+        flex-basis: calc((100% - 50px) / 6);
+    }
+
+    .psalms-links {
+        height: 70px;
+        padding: 10px;
+        border-radius: 12px;
+        font-size: 0.85rem;
+    }
+
     .background1 {
-     background-image: url("./Mask-group.svg");
-    background-repeat: no-repeat;
-    position: fixed;
-    background-size: cover;
     width: 56vw;
     height: 85vh;
-    left: 47vw;
+    right: -12vw;
     top: 7vh;
     }
 
 }
 
-@media (max-width) {
-    
+@media(max-width: 480px) {
+
+    body{
+        padding: 18px 12px;
+    }
+
+    .container {
+        margin: 0 auto;
+    }
+
+    .header{
+        margin-bottom: 28px;
+    }
+
+    .header h1{
+        font-size: 1.9rem;
+    }
+
+    .header p{
+        font-size: 0.95rem;
+    }
+
+    .psalms-list {
+        gap: 10px;
+        max-width: 310px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .psalms-list li {
+        flex-basis: calc((100% - 30px) / 4);
+    }
+
+    .psalms-links {
+        height: 70px;
+        min-height: 70px;
+        padding: 10px;
+        border-radius: 12px;
+        font-size: 0.8rem;
+    }
+
+    .background1 {
+        width: 64vw;
+        height: 70vh;
+        right: -26vw;
+    }
+
 }
