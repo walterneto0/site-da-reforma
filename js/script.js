@@ -1835,7 +1835,7 @@ if (psalmList) {
         const item = document.createElement("li")
 
         item.innerHTML = `
-            <a href="./pages/salmo.html?id=${salmo.numero}" class="psalms-links">
+            <a href="../pages/salmo.html?id=${salmo.numero}" class="psalms-links">
                 <span>${salmo.titulo}</span>
             </a>
         `
