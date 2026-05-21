@@ -2,8 +2,6 @@ const salmos = [
     {
     numero: 1,
 
-    versao: false,
-
     titulo: "Salmo 1",
 
     texto: `Quão bem aventurado é
@@ -141,7 +139,6 @@ Quem refúgio nele ͜ achar.`,
 
 {
     numero: 3,
-
    
 
     titulo: "Salmo 3",
