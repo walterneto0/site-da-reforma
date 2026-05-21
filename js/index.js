@@ -81,6 +81,8 @@ const salmoEncontrado =
 
 /* =========================
    MOSTRAR SALMO
+
+   
 ========================= */
 
 if (
@@ -137,7 +139,7 @@ if (
 
 
                 botao.textContent =
-                    nomeDaVersao
+                    nomeDaVersao.slice(-1)
 
 
 
