@@ -2,6 +2,8 @@ const salmos = [
     {
     numero: 1,
 
+    versao: false,
+
     titulo: "Salmo 1",
 
     texto: `Quão bem aventurado é
@@ -41,9 +43,10 @@ Sim, perecerá`, },
 {
     numero: 2,
 
-    titulo: "Salmo 2",
 
-    texto: `Por que se amotinam as nações,
+    textoVersoes: {
+
+        versaoA: `Por que se amotinam as nações,
 Pensam os povos sempre em vaidades?
 Os reis da terra tomam posições
 E os governantes buscam unidade
@@ -77,11 +80,69 @@ Quando em breve Seu furor se levantar.
 São todos nEle bem-aventurados,
 Todo que nEle se refugiar!
 São todos nEle bem-aventurados,
-Todo que nEle se refugiar.`
+Todo que nEle se refugiar.`,
+
+        versaoB: `Por que tramam as nações,
+Imaginam coisas vãs?
+Os reis buscam conspirar
+Governantes, se unir
+Contra o Senhor Javé,
+O Messias do Senhor:
+Desatemos ͜ os laços Seus
+E quebremos Seus grilhões.
+
+
+Mas o Senhor lá dos céus
+Rir-se-á e zombará.
+Em ira lhes falará
+Com furor ͜ os confundirá.
+O meu Rei constituí
+Sobre ͜ o monte de Sião.
+Seu decreto proclamou:
+És meu Filho, te gerei.
+
+
+Nações por herança dou
+Ao pedires tu de mim
+E ͜ extremos da terra, ͜ então,
+Como tua possessão.
+
+Com bastão de ferro, pois,
+Tu as esmigalharás.
+Tal de ͜ oleiro ͜ o vaso é
+Tu as despedaçarás.
+
+Agora vos digo, ͜ ó reis,
+Bem prudentes deveis ser;
+Juízes da terra ͜ ouvi,
+Deixai-vos advertir.
+Com temor, sim, com temor,
+Ao Senhor deveis servir.
+Com tremor, sim, com tremor
+Alegrai-vos no Senhor.
+
+
+O Filho deveis beijar
+Para não se ͜ enfurecer
+E não venhais perecer,
+No caminho sucumbir
+Quando ͜ em breve se ͜ acender,
+Sua ira derramar.
+Bem aventurados são
+Quem refúgio nele ͜ achar.`,
+
+    },
+
+      
+    titulo: "Salmo 2",
+
+    
 },
 
 {
     numero: 3,
+
+   
 
     titulo: "Salmo 3",
 
@@ -113,6 +174,8 @@ No povo Teu, Senhor.`
 
 {
     numero: 8,
+
+   
 
     titulo: "Salmo 8",
 
@@ -153,6 +216,8 @@ Quão magnificente é!`
 },
 {
     numero: 10,
+
+   
 
     titulo: "Salmo 10",
 
@@ -217,6 +282,8 @@ Pois justo és!`
 {
     numero: 11,
 
+   
+
     titulo: "Salmo 11",
 
     texto: `Meu refúgio está em Deus.
@@ -259,6 +326,8 @@ A face lhe verá.`
 {
     numero: 16,
 
+   
+
     titulo: "Salmo 16",
 
     texto: `Guarda-me, ó Deus, pois em Ti eu me abrigo.
@@ -291,6 +360,8 @@ Na tua destra, delícias sem fim.`
 
 {
     numero: 22,
+
+   
 
     titulo: "Salmo 22",
 
@@ -373,6 +444,8 @@ E às gerações futuras, dirão que Deus o fez.`
 {
     numero: 24,
 
+   
+
     titulo: "Salmo 24",
 
     texto: `Do SENHOR é a terra e a sua plenitude,
@@ -408,6 +481,8 @@ Ele é o Rei da Glória, das hostes Senhor!`
 
 {
     numero: 30,
+
+   
 
     titulo: "Salmo 30",
 
@@ -449,6 +524,8 @@ Eternamente.`
 
 {
     numero: 31,
+
+   
 
     titulo: "Salmo 31",
 
@@ -528,6 +605,8 @@ Fortalecei-vos todos.`
 {
     numero: 40,
 
+   
+
     titulo: "Salmo 40",
 
     texto: `Pelo Senhor, espero confiante,
@@ -597,6 +676,8 @@ Não te detenhas, ó Deus meu.`
 {
     numero: 42,
 
+   
+
     titulo: "Salmo 42",
 
     texto: `Como a corça suspira no rio beber,
@@ -643,6 +724,8 @@ Meu auxílio e meu Deus é o SENHOR.`
 {
     numero: 46,
 
+   
+
     titulo: "Salmo 46",
 
     texto: `Refúgio e fortaleza é Deus, presente em socorrer.
@@ -679,6 +762,8 @@ Refúgio nosso Ele é, o Deus de Israel.`
 {
     numero: 47,
 
+   
+
     titulo: "Salmo 47",
 
     texto: `Todos os povos, palmas batei
@@ -711,6 +796,8 @@ Em sua glória, Deus se exaltou.`
 
 {
     numero: 50,
+
+   
 
     titulo: "Salmo 50",
 
@@ -783,6 +870,8 @@ Darei que veja a salvação de Deus.`
 {
     numero: 51,
 
+   
+
     titulo: "Salmo 51",
 
     texto: `Tem compaixão de mim, Senhor,
@@ -852,6 +941,8 @@ E em teu altar novilhos se darão.`
 {
     numero: 54,
 
+   
+
     titulo: "Salmo 54",
 
     texto: `Ó Deus, me salva por teu nome;
@@ -875,6 +966,8 @@ E derrotados vejo os maus.`
 
 {
     numero: 61,
+
+   
 
     titulo: "Salmo 61",
 
@@ -909,6 +1002,8 @@ Os votos feitos ao SENHOR.`
 {
     numero: 67,
 
+   
+
     titulo: "Salmo 67",
 
     texto: `Ó Deus, sê gracioso conosco, abençoando.
@@ -929,6 +1024,8 @@ E, todos os confins da terra o temerão.`
 
 {
     numero: 70,
+
+   
 
     titulo: "Salmo 70",
 
@@ -953,6 +1050,8 @@ Não te detenhas, ó SENHOR.`
 
 {
     numero: 81,
+
+   
 
     titulo: "Salmo 81",
 
@@ -1005,6 +1104,8 @@ Com mel e o trigo mais fino.`
 {
     numero: 85,
 
+   
+
     titulo: "Salmo 85",
 
     texto: `Favoreceste a tua terra, Deus
@@ -1039,6 +1140,8 @@ Pegadas justas, sendas se farão.`
 {
     numero: 87,
 
+   
+
     titulo: "Salmo 87",
 
     texto: `Sobre os seus santos montes, Deus fundou
@@ -1064,6 +1167,8 @@ Os cantores em vivas, saltando, entoarão:
 
 {
     numero: 90,
+
+   
 
     titulo: "Salmo 90",
 
@@ -1127,6 +1232,8 @@ Confirma sobre nós, Senhor.`
 {
     numero: 96,
 
+   
+
     titulo: "Salmo 96",
 
     texto: `Cantai ao Senhor um cântico novo.
@@ -1159,6 +1266,8 @@ Julgará o mundo fiel e justamente.`
 {
     numero: 100,
 
+   
+
     titulo: "Salmo 100",
 
     texto: `Todos os povos celebrai,
@@ -1184,6 +1293,8 @@ O Senhor sempre é fiel.`
 
 {
     numero: 103,
+
+   
 
     titulo: "Salmo 103",
 
@@ -1254,6 +1365,8 @@ E em todo domínio de Deus, sim, bendize, ó minh’alma, ao SENHOR.`
 {
     numero: 115,
 
+   
+
     titulo: "Salmo 115",
 
     texto: `Não a nós, SENHOR, não a nós, SENHOR,
@@ -1299,6 +1412,8 @@ Desde agora e sempre. Aleluia!`
 {
     numero: 117,
 
+   
+
     titulo: "Salmo 117",
 
     texto: `Ao Senhor Deus rendei louvor
@@ -1313,6 +1428,8 @@ Aleluia!`
 
 {
     numero: 118,
+
+   
 
     titulo: "Salmo 118",
 
@@ -1392,6 +1509,8 @@ Pra sempre durará.`
 {
     numero: 119,
 
+   
+
     titulo: "Salmo 119 - Bet",
 
     texto: `De que maneira o jovem poderá
@@ -1423,6 +1542,8 @@ Tua Palavra não esquecerei.`
 {
     numero: 119.6,
 
+   
+
     titulo: "Salmo 119 - Vav",
 
     texto: `Venham também sobre mim salvação,
@@ -1448,6 +1569,8 @@ Nos teus decretos, sim, eu meditarei.`
 
 {
     numero: 122,
+
+   
 
     titulo: "Salmo 122",
 
@@ -1479,6 +1602,8 @@ Buscarei sempre o teu bem.`
 {
     numero: 123,
 
+   
+
     titulo: "Salmo 123",
 
     texto: `A ti, que habitas lá nos céus,
@@ -1504,6 +1629,8 @@ Mostrando desprezo a nós.`
 
 {
     numero: 124,
+
+   
 
     titulo: "Salmo 124",
 
@@ -1531,6 +1658,8 @@ Foi Ele que a terra e o céu criou.`
 {
     numero: 125,
 
+   
+
     titulo: "Salmo 125",
 
     texto: `Os homens da terra que no Senhor confiam
@@ -1554,6 +1683,8 @@ E paz sobre Israel, paz sobre Israel!`
 
 {
     numero: 126,
+
+   
 
     titulo: "Salmo 126",
 
@@ -1581,6 +1712,8 @@ Com gozo retorna com seus molhos nas mãos`
 {
     numero: 127,
 
+   
+
     titulo: "Salmo 127",
 
     texto: `Se Deus a casa não a edificar,
@@ -1606,6 +1739,8 @@ Pois cheia sua aljava estará.`
 
 {
     numero: 128,
+
+   
 
     titulo: "Salmo 128",
 
@@ -1640,6 +1775,8 @@ Seja a paz sobre Israel!`
 {
     numero: 131,
 
+   
+
     titulo: "Salmo 131",
 
     texto: `Não é soberbo o meu coração
@@ -1660,6 +1797,8 @@ E para sempre. Amém.`
 
 {
     numero: 136,
+
+   
 
     titulo: "Salmo 136",
 
@@ -1730,6 +1869,8 @@ Porque seu amor é eterno.`
 {
     numero: 137,
 
+   
+
     titulo: "Salmo 137",
 
     texto: `Nas margens lá dos rios da Babilônia, nos assentamos.
@@ -1755,6 +1896,8 @@ Para esmagá-los todos contra os rochedos.`
 
 {
     numero: 146,
+
+   
 
     titulo: "Salmo 146",
 
@@ -1782,6 +1925,8 @@ De uma geração à outra, reina Deus! Aleluia!`
 {
     numero: 149,
 
+   
+
     titulo: "Salmo 149",
 
     texto: `Aleluia, um novo canto ao Senhor cantai, louvai-o
@@ -1806,6 +1951,8 @@ E honra aos santos será isso, sim, aleluia!`
 {
     numero: 150,
 
+   
+
     titulo: "Salmo 150",
 
     texto: `Aleluia! Louvai no santuário
@@ -1826,44 +1973,4 @@ Sim, tudo que respira louve, aleluia!`
 
 ]
 
-const psalmList = document.getElementById("psalms-list")
-
-if (psalmList) {
-
-    salmos.forEach((salmo) => {
-
-        const item = document.createElement("li")
-
-        item.innerHTML = `
-            <a href="pages/salmo.html?id=${salmo.numero}" class="psalms-links">
-                <span>${salmo.numero}</span>
-            </a>
-        `
-
-        psalmList.appendChild(item)
-
-    })
-
-}
-
-const tituloSalmo = document.getElementById("titulo-salmo")
-
-const textoSalmo = document.getElementById("texto-salmo")
-
-const parametros = new URLSearchParams(window.location.search)
-
-const idDoSalmo = Number(parametros.get("id"))
-
-const salmoEncontrado = salmos.find((salmo) => {
-
-    return salmo.numero === idDoSalmo
-
-})
-
-if (tituloSalmo && textoSalmo && salmoEncontrado) {
-
-    tituloSalmo.textContent = salmoEncontrado.titulo
-
-    textoSalmo.textContent = salmoEncontrado.texto
-
-}
+export default salmos 
